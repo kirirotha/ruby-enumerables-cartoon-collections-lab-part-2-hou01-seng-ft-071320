@@ -29,8 +29,8 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.each do |element|
     current = element
-    valid_calls.find do |element|
-      element == current
+    valid_calls.find do |element2|
+      element2 == current
     end
   end
 end
